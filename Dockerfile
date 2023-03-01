@@ -14,7 +14,7 @@ RUN npm install
 
 COPY --chown=node:node . .
 
-EXPOSE 9090
+EXPOSE 8888
 
 CMD [ "node", "index.js" ]
 
