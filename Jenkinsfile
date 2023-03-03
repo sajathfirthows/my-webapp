@@ -1,3 +1,8 @@
+env.PATH = "/usr/bin/git:${env.PATH}"
+env.GIT_HOME = tool 'git'
+
+
+
 pipeline {
     agent any
 
